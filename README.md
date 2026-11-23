@@ -27,11 +27,11 @@ This will hopefully be my first real working drone. Previously, I have built thi
 | :--- | :--- | :--- |
 | `2s` | Battery Voltage (`VBAT`) | `J5` Pin 1, `J7` Pin 7, `J8` Pin 2 |
 | `5` | Regulated `+5V` Rail | `J1` Pin 1, `J6` Pin 1 |
-| `3` *(Power)* | Regulated `+3.3V` Rail | `J1` Pin 3, `J3` Pin 1, `J4` Pin 1, `J9` Pin 1 |
+| `3` | Regulated `+3.3V` Rail | `J1` Pin 3, `J3` Pin 1, `J4` Pin 1, `J9` Pin 1 |
 | `g` | Common Ground (`GND`) | `J1` Pin 2, `J3` Pin 2, `J4` Pin 2, `J5` Pin 4, `J6` Pin 4, `J7` Pin 8, `J8` Pin 3, `J9` Pin 4 |
 | `1` | ESC Motor 1 (`D0`) | `J2` Pin 1, `J7` Pin 6 |
 | `2` | ESC Motor 2 (`D1`) | `J2` Pin 2, `J7` Pin 5 |
-| `3` *(Signal)* | ESC Motor 3 (`D2`) | `J2` Pin 3, `J7` Pin 4 |
+| `3` | ESC Motor 3 (`D2`) | `J2` Pin 3, `J7` Pin 4 |
 | `4` | ESC Motor 4 (`D3`) | `J2` Pin 4, `J7` Pin 3 |
 | `sda` | Shared I2C Data | `J2` Pin 5, `J3` Pin 4, `J4` Pin 4 |
 | `scl` | Shared I2C Clock | `J2` Pin 6, `J3` Pin 3, `J4` Pin 3 |
