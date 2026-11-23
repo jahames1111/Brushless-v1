@@ -20,3 +20,23 @@ This will hopefully be my first real working drone. Previously, I have built thi
 |SH 8p connector kit                                             |Part      |1       |19.99           |19.99           |https://www.amazon.com/Pre-Crimped-Connectors-Compatible-controller-SpeedyBee/dp/B0D2MQ85LK/ref=sr_1_5?crid=1NW6M1QHXJBRX&dib=eyJ2IjoiMSJ9.XP2_0SzFjv97GMImQw4y6xu5FE4Lv5_mpqX9iK_u7GKBkKTv3qKIV_Q8uT7uXFptxKuxkwmMXn8RlRDEZJrXnd2WUZENNH8laiKPOXlqjOSBrpLwzCMZzx90-tMTwGtkmS7V6MndxDfQdn9chaoqvScW5X2GzA_GDFEuyGpEFJtiqlYoLrApuP7hWbGEbsQTf1CmgSv2wNS1MFIkICCj7HNtmneW9KJVW0OTXsICU3_2hWazLCTqFqnE_SVUplWngtsf20ProdjS4MK1Qtry7_HmqtODXgvs_1zSchpYFjU.NyeR_bvLoL6L_tnB4xKkMgeGN5dzxK-nrS7UTKqhsR8&dib_tag=se&keywords=sh+1.0+8p&qid=1795437435&s=automotive&sprefix=sh+1.0+8p%2Cautomotive%2C146&sr=1-5-catcorr|Amazon               |Grant      |INcludes others, cheapest option              |
 |Total                                                           |          |        |                |180.17          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |                     |           |                                              |
 
+
+# Wiring/Connections
+
+| Net Name | Function / Signal | All Connected Pins |
+| :--- | :--- | :--- |
+| `2s` | Battery Voltage (`VBAT`) | `J5` Pin 1, `J7` Pin 7, `J8` Pin 2 |
+| `5` | Regulated `+5V` Rail | `J1` Pin 1, `J6` Pin 1 |
+| `3` *(Power)* | Regulated `+3.3V` Rail | `J1` Pin 3, `J3` Pin 1, `J4` Pin 1, `J9` Pin 1 |
+| `g` | Common Ground (`GND`) | `J1` Pin 2, `J3` Pin 2, `J4` Pin 2, `J5` Pin 4, `J6` Pin 4, `J7` Pin 8, `J8` Pin 3, `J9` Pin 4 |
+| `1` | ESC Motor 1 (`D0`) | `J2` Pin 1, `J7` Pin 6 |
+| `2` | ESC Motor 2 (`D1`) | `J2` Pin 2, `J7` Pin 5 |
+| `3` *(Signal)* | ESC Motor 3 (`D2`) | `J2` Pin 3, `J7` Pin 4 |
+| `4` | ESC Motor 4 (`D3`) | `J2` Pin 4, `J7` Pin 3 |
+| `sda` | Shared I2C Data | `J2` Pin 5, `J3` Pin 4, `J4` Pin 4 |
+| `scl` | Shared I2C Clock | `J2` Pin 6, `J3` Pin 3, `J4` Pin 3 |
+| `rx` | UART (`D6` ➔ GPS `RX`) | `J2` Pin 7, `J9` Pin 2 |
+| `tx` | UART (`D7` ➔ GPS `TX`) | `J1` Pin 7, `J9` Pin 3 |
+| `vadc` | Battery Voltage Sense | `J1` Pin 6, `J8` Pin 1 |
+| *No-Connect* | Unused Pins | `J1` Pin 4, `J1` Pin 5, `J5` Pin 2, `J5` Pin 3, `J6` Pin 2, `J6` Pin 3, `J7` Pin 1, `J7` Pin 2 |
+
