@@ -1,5 +1,6 @@
 # Brushless-v1
 This will hopefully be my first real working drone. Previously, I have built things using brushed 8520 motors, but I could never get the drone to be light enough for those to work. This time, I will have a bigger budget and will be able to use brushless motors. 
+<img width="914" height="595" alt="image" src="https://github.com/user-attachments/assets/a6c5e43b-f906-4ba2-86f1-80e639705c24" />
 
 # BOM (so far)
 |Part                                                            |Type      |Quantity|Unit price (USD)|Line total (USD)|Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |Vendor               |Funding    |Notes                                         |
