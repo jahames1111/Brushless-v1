@@ -22,7 +22,7 @@ This will hopefully be my first real working drone. Previously, I have built thi
 |Total                                                           |          |        |                |180.17          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |                     |           |                                              |
 
 
-# Wiring/Connections
+# Wiring/Connections on PCB
 
 | Net Name | Function / Signal | All Connected Pins |
 | :--- | :--- | :--- |
