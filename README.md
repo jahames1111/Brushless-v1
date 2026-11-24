@@ -6,9 +6,11 @@ This will hopefully be my first real working drone. Previously, I have built thi
 
 
 3D: In github, also
-https://cad.onshape.com/documents/dc8006e672f3f91329fdcc5b \n
-https://cad.onshape.com/documents/e8c6850fa68e1cd546790438 \n
-https://cad.onshape.com/documents/d17096ea64e2407efe53b08a \n
+https://cad.onshape.com/documents/dc8006e672f3f91329fdcc5b 
+ 
+https://cad.onshape.com/documents/e8c6850fa68e1cd546790438 
+ 
+https://cad.onshape.com/documents/d17096ea64e2407efe53b08a 
 
 # BOM (so far)
 |Part                                                            |Type      |Quantity|Unit price (USD)|Line total (USD)|Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |Vendor               |Funding    |Notes                                         |
